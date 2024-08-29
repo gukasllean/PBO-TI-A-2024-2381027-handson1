@@ -1,7 +1,9 @@
 public class TipeDataArray {
     public static void main(String[] args) {
-        int[] kumpulanNumber;
-        kumpulanNumber = new int[3];
+        Object[] kumpulanNumber;
+        kumpulanNumber = new Object[3];
+
+
 
         kumpulanNumber[0] = 100;
         kumpulanNumber[1]= "Lukas";
@@ -9,5 +11,6 @@ public class TipeDataArray {
 
         System.out.println(kumpulanNumber[1]);
 
+        System.out.println(kumpulanNumber.length);
     }
 }

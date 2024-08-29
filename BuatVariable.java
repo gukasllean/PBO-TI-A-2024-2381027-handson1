@@ -10,5 +10,6 @@ public class BuatVariable {
         int lukas = 10;
 
         final float nilaiPhytagoras = 3.14F;
+      //  nilaiPhytagoras = 1.3F;
     }
 }
